@@ -1,0 +1,123 @@
+#ValidationPage {
+    overflow: auto;
+    height: 100%;
+    width: 100%;
+    font-size: 11pt;
+}
+
+#ValidationPage button {
+    background-color: #A57C65;
+    color: #fefefe
+}
+
+#ValidationPage table {
+    table-layout: fixed;
+    color: black;
+}
+
+#ValidationPage td,tr {
+    padding-bottom: 10px;
+}
+
+#ValidationPage th {
+    padding: 12px;
+    background-color: #A0B084;
+}
+
+#ValidationPage thead th:nth-child(1) {
+    width: 20px;
+}
+
+#ValidationPage table tr {
+    width: 100px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #B0BED9;
+    text-align: center;
+}
+
+#ValidationPage #divCommandsPageCenter {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#divRightValidationPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*padding: 40px;*/
+}
+
+#divLeftValidationPage button {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#ValidationPage tr.selected {
+    background-color: #79ace9;
+    color: #fefefe;
+}
+#ValidationPage tbody pre {
+    margin: auto;
+    text-align: left;
+    height: 45px;
+    overflow:hidden;
+    max-width: 700px;
+    min-width: 400px;
+    padding: 8px;
+}
+
+#ValidationPage tbody td:last-child {
+    text-align: center;
+    width: 250px;
+    max-width: 300px;
+}
+
+#ValidationPage tbody pre.edit {
+    height: auto;
+    overflow: auto;
+    background-color: #F8F8FF;
+    color: #696969	;
+}
+#ValidationPage tbody td.edit {
+    background-color: #F8F8FF;
+}
+
+#ValidationPage button {
+    font-size: 15pt;
+    font-family: "Calibri Light", sans-serif;
+}
+
+
+#divRightValidationPage button {
+    width: 70px;
+    height: 50px;
+    margin: 15px;
+}
+
+#ValidationPage #buttonSaveChange {
+    float: right;
+}
+
+#ValidationPage button:hover {
+    color: black;
+}
+#ValidationPage button:active {
+    background-color: #688B8A;
+    color: #fafafa;
+}
+#ValidationPage table td {
+    padding: 5px;
+}
+#buttonBackFromCommandsPage {
+    width: 170px;
+    height: 50px;
+    font-size: 15pt;
+    margin-bottom: 20px;
+}
+
+#ValidationPage #buttonLoadDefaultCommands {
+    margin-top:40px;
+    height: 40px;
+}

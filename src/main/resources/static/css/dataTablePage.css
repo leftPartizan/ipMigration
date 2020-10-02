@@ -1,0 +1,67 @@
+#dataTablePage {
+    /*overflow: auto;*/
+    height: 100%;
+    width: 100%;
+    font-size: 13pt;
+    display: flex;
+    flex-direction: column;
+}
+
+#dataTablePage #divDataTablePageCenter {
+    display: inline-flex;
+    min-width: 450px;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+#dataTablePage table th {
+    background-color: #A0B084;
+    color: white;
+    border-bottom: 3px solid #ddd;
+}
+#dataTablePage tbody td {
+    background-color: #79ace9;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#dataTablePage button {
+    background-color: #A57C65;
+    color: #fefefe
+}
+
+#dataTablePage #buttonBack2{
+    width: 250px;
+    height: 60px;
+    font-size: 15pt;
+    margin-bottom: 50px;
+}
+
+#dataTablePage button:hover {
+    color: black;
+}
+#dataTablePage button:active {
+    background-color: #688B8A;
+    color: #fafafa;
+}
+#dataTablePage #backInNet {
+    width: 90px;
+    height: 30px;
+}
+#dataTablePage  #clearData  {
+    width: 150px;
+    height: 50px;
+    margin-top: 50px;
+    align-self: center;
+    float: end;
+}
+#dataTablePage table tr:active {
+    color: white;
+    background-color: #688B8A;
+}
+#dataTablePage table tr:hover td {
+    background-color: #007dbb;
+    color: white;
+}

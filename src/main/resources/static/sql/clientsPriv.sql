@@ -1,0 +1,11 @@
+revoke create table from CLIENTS;
+revoke create procedure from CLIENTS;
+revoke CREATE TRIGGER from CLIENTS;
+revoke alter any trigger from CLIENTS;
+revoke alter any procedure from CLIENTS;
+revoke alter any sequence from CLIENTS;
+revoke drop any table from CLIENTS;
+revoke drop any procedure from CLIENTS;
+revoke drop any trigger from CLIENTS;
+revoke drop any view from CLIENTS;
+grant create any sequence to CLIENTS;

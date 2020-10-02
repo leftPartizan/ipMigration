@@ -1,0 +1,88 @@
+
+#reportPage {
+    padding-left: 20px;
+}
+
+#reportPage button {
+    background-color: #A57C65;
+    color: #fefefe
+}
+
+#divReportPageCenter {
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#reportPage #buttonBack {
+    width: 170px;
+    height: 50px;
+    font-size: 15pt;
+    margin-bottom: 50px;
+}
+
+#reportPage #divRightReportPage {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#reportPage #divLeftReportPage {
+    overflow: auto;
+    height: 100%;
+    max-width: 80%;
+    min-width: 40%;
+}
+
+#buttonLoadToSystem {
+    font-size: 15pt;
+    margin-left: 100px;
+    width: 220px;
+    height: 90px;
+}
+
+#reportPage #validationTable_paginate {
+    margin-bottom: 50px;
+}
+
+#reportPage table th {
+    background-color: #A0B084;
+    color: white;
+}
+#reportPage tbody td {
+    background-color: #79ace9;
+}
+
+#reportPage #validationTable thead th {
+    color: white;
+    border-bottom: 3px solid #ddd;
+}
+
+#reportPage #validationTable tbody td:nth-child(2) {
+    text-align: center;
+}
+
+#reportPage #validationTable td {
+    border: 1px solid #ddd;
+}
+
+#reportPage #reportTable td {
+    padding: 10px;
+}
+#reportPage #reportTable th {
+    font-size: 14pt;
+    padding: 10px;
+}
+
+#reportPage #divReportPageCenter button {
+    font-size: 15pt;
+    margin-top: 20px;
+}
+
+#reportPage button:hover {
+    color: black;
+}
+#reportPage button:active {
+    background-color: #688B8A;
+    color: #fafafa;
+}

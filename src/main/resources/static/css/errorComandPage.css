@@ -1,0 +1,23 @@
+#divErrorPage{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 14pt;
+}
+#divErrorPage pre {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+#divErrorPage #showScript {
+    width: 160px;
+    height: 60px;
+    padding: 4px;
+    margin-top: 20px;
+}
+#divErrorPage #buttonBack3 {
+    width: 160px;
+    height: 60px;
+    padding: 4px;
+    margin-top: 20px;
+}

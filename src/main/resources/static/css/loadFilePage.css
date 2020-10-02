@@ -1,0 +1,30 @@
+body {
+    background-color: #DDDEDED8;
+    font-family: 'Roboto', 'Tahoma', serif;
+    overflow: auto;
+    height: 99%;
+    width: 99%;
+}
+
+#loadFilePage {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#loadFilePage button {
+    font-size: 25px;
+    background-color: #f9f9f9;
+}
+#loadFilePage input {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.page-navigation a{
+    margin: 0.3%;
+}
+
+#loadToSystem {
+    margin-top: 10px;
+    padding: 20px;
+}
